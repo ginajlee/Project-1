@@ -1,11 +1,6 @@
-
-
-# B)
-
 library(readxl)
 library(dplyr)
 
-setwd("/Users/ginajlee/Desktop/Data Science/Project 1")
 payroll <- read_excel ("P01_LA zipcode payroll.xlsx", sheet = 13)
 
 total=payroll[,c(1,5)]
