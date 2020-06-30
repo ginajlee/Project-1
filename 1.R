@@ -36,4 +36,4 @@ colnames(sum) <- c("Sum")
 final2$Percentage = sum$Sum/final2$Total
 colnames(final2) <- c("Zip Code", "Total", "Information", "Professional Scientific Technical Skills", "Percentage")
 
-write.csv (final2, file = "Project1.csv")
+write.csv (final2, file = "1.csv")
